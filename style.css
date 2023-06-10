@@ -33,19 +33,22 @@ body{
     text-align: center;
 }
 p{
-    
+
     color: rgb(255, 255, 255);
     text-align: center;
     text-shadow: 10px 10px 20px rgb(17, 0, 255);
 }
 
 
-.video{
+.video {
     display: block;
-    width: 70%;
+    width: 80%;
     height: calc(100vw*30/100);
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 1.25rem auto;
+    align-items: center;
+    text-align: center;
+    margin: 100px;
 }
 
 footer{
@@ -82,3 +85,9 @@ footer{
     background-color: rgba(189, 18, 103, 0.7);
 }
 
+img{
+    width: 80%;
+    margin: 100px;
+    align-items: center;
+    text-align: center;
+}
